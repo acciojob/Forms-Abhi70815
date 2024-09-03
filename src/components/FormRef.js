@@ -22,7 +22,7 @@ const FormRef = () => {
         <h2>Form using Ref</h2>
         <form id='info-form' onSubmit={handleSubmit}>
            <input
-            id='fullname'
+            id='full_name'
             type='text'
             placeholder='Full Name'
             ref={full_nmaeRef}
